@@ -14,9 +14,6 @@ public class PhoneBookApp {
 		Reader fr = new FileReader("C:\\javaStudy\\PhoneDB.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
-		
-		
-		
 		//반복
 		while(true) {
 			//파일을 1줄씩 읽는다
@@ -29,8 +26,9 @@ public class PhoneBookApp {
 			
 
 			String[] personInfo = str.split(",");
-			//"이효리,010-2222-3333,031-2323-4441"
-			//["이효리"] ["010-2222-3333"] ["031-2323-4441"] --> personInfo
+			//"이효리,010-2222-3333,031-2323-4441"  
+			//"->콤마로 분리해서 배열로 만든다"
+			//["이효리"] ["010-2222-3333"] ["031-2323-4441"] 
 			
 			String name = personInfo[0];
 			String hp = personInfo[1];
@@ -43,23 +41,6 @@ public class PhoneBookApp {
 			System.out.println("");
 			
 		}
-		
-		
-		
-		
-		
-		//반복
-		    //파일을 1줄 읽는다
-			
-		
-			//,로 분리한다  
-		        //name = 정우성
-		        //hp = 010-0220-2222
-		        //company = 02-222-2222
-		
-		    //출력한다
-		 
-		//null 이면 반복종료
 		
 		//종료
 		br.close();
