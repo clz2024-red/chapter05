@@ -22,19 +22,18 @@ public class Ex03 {
 		
 		System.out.println("복사시작");
 		while(true) {
-			int data = bin.read();
+			int data = in.read();
 			
 			if(data == -1) {
 				System.out.println("복사끝");
 				break;
 			}
 			
-			bout.write(data);
+			out.write(data);
 		}
 		
 		bout.close();
 		bin.close();
-		
 
 	}
 
