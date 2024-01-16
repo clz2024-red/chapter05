@@ -8,6 +8,11 @@ public class PhonebookApp {
 		
 		//파일에서 읽은 내용을 리스트로 관리
 		//(이름, 핸드폰, 회사 ) --> Person
+		
+		//자신의 정보 Person 리스트에 추가하고
+		
+		//리스트 전체내용을  PhoneDB.txt에 쓴다
+		
 	}
 
 }
